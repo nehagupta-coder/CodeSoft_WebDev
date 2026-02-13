@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Neha Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="landcss.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+
+        header {
+            background: #111;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 60px;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+
+        /* Landing section */
+        .landing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 70px;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+        }
+
+
+        .text h1 {
+            font-size: 45px;
+        }
+
+        .text h3 {
+            margin: 10px 0;
+        }
+
+        .text button {
+            padding: 12px 25px;
+            border: none;
+            margin-top: 15px;
+            background: rgb(233, 233, 94);
+            font-weight: bold;
+        }
+
+        .text button:hover {
+            background: rgb(206, 234, 22);
+
+            transform: scale(1.1);
+        }
+
+        .Coding {
+            background: white;
+            margin-left: 10px;
+        }
+
+        .image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .courses {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .course-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+
+        }
+
+        .card01 {
+            padding: 20px;
+            background: rgb(201, 166, 233);
+            border-radius: 8px;
+
+        }
+
+        .card01:hover {
+            background: blueviolet;
+
+            transform: scale(1.1);
+        }
+
+        .card02 {
+            padding: 20px;
+            background: rgb(168, 239, 168);
+            border-radius: 8px;
+        }
+
+        .card02:hover {
+            background: green;
+
+            transform: scale(1.1);
+        }
+
+        .card03 {
+            padding: 20px;
+            background: pink;
+            border-radius: 8px;
+        }
+
+        .card03:hover {
+            background: oklab(68.306% 0.21755 -0.101);
+
+            transform: scale(1.1);
+        }
+
+        /* Features */
+        .features {
+            padding: 50px;
+            text-align: center;
+            background: hsl(69, 65%, 56%);
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card04 {
+            background: white;
+            padding: 25px;
+            margin: 15px;
+            width: 180px;
+            box-shadow: 0 0 10px gray;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .card04:hover {
+            background: pink;
+            transform: scale(1.1);
+
+        }
+
+        .card05 {
+            background: white;
+            padding: 25px;
+            margin: 15px;
+            width: 180px;
+            box-shadow: 0 0 10px rgb(243, 140, 140);
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .card05:hover {
+            background: pink;
+            transform: scale(1.1);
+
+        }
+
+        .card06 {
+            background: white;
+            padding: 25px;
+            margin: 15px;
+            width: 180px;
+            box-shadow: 0 0 10px rgb(232, 150, 150);
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .card06:hover {
+            background: #e290a3;
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Neha Coding Hub</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Features</a>
+            <a href="#">Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- Landing Section -->
+    <section class="landing">
+        <div class="text">
+            <h1>Welcome Students</h1>
+            <h3>Learn Coding & Build Your Career</h3>
+            <p>Join our platform to learn Java, Web Development, and DSA.</p>
+            <button>Get Started</button>
+            <button class="Coding">Learn More</button>
+        </div>
+
+        <div class="image">
+            <img src="image01.jpg" alt="student">
+        </div>
+    </section>
+    <!--Courses-->
+    <section class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-box">
+            <div class="card01">Java</div>
+            <div class="card02">Web Development</div>
+            <div class="card03">DSA</div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="box">
+            <div class="card04">📚 Easy Notes</div>
+            <div class="card05">💻 Coding Practice</div>
+            <div class="card06">🎯 Placement Prep</div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Neha Gupta Landing Page | Made for Practice</p>
+        <p>Email:support@ng8846558@gmail.com</p>
+        <p>Phone:+91-7909070677</p>
+    </footer>
+
+</body>
+
+</html>
