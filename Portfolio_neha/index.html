@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Gupta Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    /* styles */
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 104, 130)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(114, 175, 232);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            /*Beauty Gupta's Portfolio*/
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(239, 89, 199);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(161, 239, 169);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font: 1.6rem;
+        }
+
+        .secondSection .box {
+            background-color: beige;
+            width: 90vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: rgb(75, 202, 241);
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(66, 67, 67);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+            padding: 12px 0;
+
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            justify-content: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Neha Gupta's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="./Projects/Amazon Clone/index.html" target="_blank">Project</a></li>
+                <li><a href="/">Contact Me</a></li>
+                <li><a href="/">Feedback</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi I am<span class="purple"> Neha Gupta </span>passoniate developer
+                of website.
+                <div>I am a self motivated.</div>
+
+                <!-- Element to contain animated typing (type in google -typed js then click github )-->
+                <span id="element"></span>
+                <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+
+                <div class="buttons">
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        target="_blank">
+                        <button class="btn"> Hire Me</button>
+                    </a>
+                    <a href="Neha_resume.pdf" target="_blank" download>
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="mailto:ng8846558@gmail.com">
+                        <button class="btn"> Email</button></a>
+                    <a href="tel:+917909070677">
+                        <button class="btn">contact me</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image02.jpg" alt="profile image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+
+            <h2>Work Experience</h2>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.avif" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql.png" alt="">
+                    <div class="vertical-title">
+                        MySQL Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        css Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        Js Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ns.jpg" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">
+                        C Language (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first"></div>
+            <h3>Neha Gupta's Developer Portfolio</h3>
+            <div class="footer-second"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+
+            </ul>
+            <div class="footer-third"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+            <div class="footer-fourth"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+            <div class="footer-rights">
+                copyright &#169; nehaguptaportfolio.com | All rights reserved
+            </div>
+
+    </footer>
+    <script src="<script src=" https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>"
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Gupta Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 104, 130)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(114, 175, 232);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            /*Beauty Gupta's Portfolio*/
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(239, 89, 199);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(161, 239, 169);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection {
+            font: 1.6rem;
+        }
+
+        .secondSection .box {
+            background-color: beige;
+            width: 90vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: rgb(75, 202, 241);
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(66, 67, 67);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+            padding: 12px 0;
+
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            justify-content: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Neha Gupta's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="./Projects/Amazon Clone/index.html" target="_blank">Project</a></li>
+                <li><a href="/">Contact Me</a></li>
+                <li><a href="/">Feedback</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi I am<span class="purple"> Neha Gupta </span>passoniate developer
+                of website.
+                <div>I am a self motivated.</div>
+
+                <!-- Element to contain animated typing (type in google -typed js then click github )-->
+                <span id="element"></span>
+                <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+
+                <div class="buttons">
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        target="_blank">
+                        <button class="btn"> Hire Me</button>
+                    </a>
+                    <a href="Neha_resume.pdf" target="_blank" download>
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="mailto:ng8846558@gmail.com">
+                        <button class="btn"> Email</button></a>
+                    <a href="tel:+917909070677">
+                        <button class="btn">contact me</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image02.jpg" alt="profile image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+
+            <h2>Work Experience</h2>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.avif" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql.png" alt="">
+                    <div class="vertical-title">
+                        MySQL Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        css Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        Js Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ns.jpg" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">
+                        C Language (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aut mollitia, nulla amet itaque aperiam, voluptates totam temporibus animi
+                        laborum incidunt officiis repudiandae odio iusto ratione. Quos, modi veritatis! Obcaecati,
+                        voluptatibus!
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first"></div>
+            <h3>Neha Gupta's Developer Portfolio</h3>
+            <div class="footer-second"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+
+            </ul>
+            <div class="footer-third"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+            <div class="footer-fourth"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+            <div class="footer-rights">
+                copyright &#169; nehaguptaportfolio.com | All rights reserved
+            </div>
+
+    </footer>
+    <script src="<script src=" https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>"
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
